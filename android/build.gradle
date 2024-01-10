@@ -5,8 +5,8 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-        minSdkVersion safeExtGet('PassportReader_minSdkVersion', 25)
-        targetSdkVersion safeExtGet('PassportReader_targetSdkVersion', 25.0.1)
+    compileSdkVersion safeExtGet('PassportReader_compileSdkVersion', 33)
+    buildToolsVersion safeExtGet('PassportReader_buildToolsVersion', '33.0.0')
 
     defaultConfig {
         minSdkVersion safeExtGet('PassportReader_minSdkVersion', 16)
